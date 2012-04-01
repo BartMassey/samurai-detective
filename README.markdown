@@ -4,6 +4,8 @@ created by the 15 or so participants of Bar Camp Portland
 of the actual writing, with help from Audrey Eschright and
 Reid Beals.
 
+Try the game: http://bartmassey.github.com/barcamp-story-2012-pdx/
+
 Samurai Detective is released under the Creative Commons
 Attribution 3.0 United States license:
 http://creativecommons.org/licenses/by/3.0/us/
