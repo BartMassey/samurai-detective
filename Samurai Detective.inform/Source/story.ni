@@ -33,9 +33,11 @@ Before the player doing something to the door when hinted is false: say "The doo
 
 Instead of unlocking the door with the green encrusted key: say "There's no real point in that. You can solve the mystery from in here."
 
-After examining the body when the green encrusted key is not touchable and hinted is true: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets[if we have taken inventory] again[end if]..."; now the player carries the green encrusted key.
+After examining the body when the green encrusted key is not touchable and hinted is true: say "You can't find a key, and the door locks from the inside. How did the killer get out of the room? Oddly, your intuition tells you that you should check your pockets[if we have taken inventory] again[end if]..."; now the player carries the green encrusted key.
 
 Understand "check pockets" or "check my pockets" as taking inventory.
+
+After taking inventory when the green encrusted key is touchable for the first time: say "Reminder: As mentioned earlier, to try to solve the mystery, say ACCUSE (killer)."
 
 The description of the green encrusted key is "This verdigris-covered key is labeled 'Dojo Key'. There is a little blood on it." 
 
