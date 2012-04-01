@@ -29,7 +29,7 @@ Instead of unlocking the door with the green encrusted key: say "There's no real
 
 Hinted is a truth state that varies.
 
-After examining the body when the player carries the green encrusted key and hinted is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets..."; now hinted is true.
+After examining the body when the player carries the green encrusted key and hinted is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets again..."; now hinted is true.
 
 The description of the green encrusted key is "This verdigris-covered key is labeled 'Dojo Key'. There is a little blood on it." 
 
@@ -41,11 +41,15 @@ To indicate cheating: decrease the score by 1; end the story saying "Oh, very cl
 
 To indicate flailing: end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself."
 
-Carry out solving: let the accused be the topic understood; if the accused is a Non-Murderer listed in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not a Murderer listed in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
+To decide whether (the accused - an indexed text) is referred to in (the directory - a table name): repeat through the directory begin; if the accused matches the text Murderer entry, decide yes; end repeat; decide no.
+
+To decide whether (the accused - an indexed text) is not referred to in (the directory - a table name): if the accused is referred to in the directory, decide no; decide yes.
+
+Carry out solving: let the accused be an indexed text; let the accused be the topic understood; if the accused is referred to in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not referred to in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
 
 Table of Nonsense Murderer Names
-Non-Murderer
-topic
+Murderer
+indexed text
 "killer"
 "assailant"
 "murderer"
@@ -54,9 +58,11 @@ topic
 
 Table of Murderer Names
 Murderer
-topic
+indexed text
 "player"
 "self"
 "myself"
 "samurai"
 "me"
+
+Test me with "i / x body / s / x body / i / s / x key / accuse me".
