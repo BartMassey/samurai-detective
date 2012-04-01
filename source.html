@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Bar Camp PDX 2012 - Samurai Detective — 1 of 1</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Bar Camp PDX 2012" />
+  <meta name="description" content="A page for the game Samurai Detective by Bar Camp PDX 2012." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.png"><img src="Small Cover.png" border="1" /></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>Samurai Detective</span> <span class="pagination">— 1 of 1</span>
+	</h1>
+	<h2>
+		<span>Bar Camp PDX 2012</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 1</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.txt">Complete text</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">&quot;<span class="quote">Samurai Detective</span>&quot; by &quot;<span class="quote">Bar Camp PDX 2012</span>&quot;</span></p><p class="indent0"></p><p class="indent0"><span class="comment">[ Copyright © 2012 participants of the Bar Camp Portland 2012 Inform 7 authoring session. ]</span></p><p class="indent0"><span class="comment">[ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]</span></p><p class="indent0"></p><p class="indent0">Release along with the library card, cover art, an interpreter and the source text.</p><p class="indent0"></p><p class="indent0">The maximum score is 1.</p><p class="indent0"></p><p class="indent0">The story headline is &quot;<span class="quote">A Murder Mystery</span>&quot;.</p><p class="indent0"></p><p class="indent0">The story description is &quot;<span class="quote">A very quick murder mystery written as a demo exercise for Bar Camp Portland 2012.</span>&quot;</p><p class="indent0"></p><p class="indent0">When play begins: say &quot;<span class="quote">To try to solve the mystery, say ACCUSE (killer).</span>&quot;</p><p class="indent0"></p><p class="indent0">Include Locksmith by Emily Short.</p><p class="indent0"></p><p class="indent0">The Dojo is a room. &quot;<span class="quote">This a large airy room with a [</span><span class="substitution">wood floor</span><span class="quote">].</span>&quot; The wood floor is scenery in the Dojo.</p><p class="indent0"></p><p class="indent0">The description of the player is &quot;<span class="quote">You are short and mysterious. You carry a [</span><span class="substitution">katana</span><span class="quote">] slightly too large for your slender frame.</span>&quot;</p><p class="indent0"></p><p class="indent0">The player carries a katana. The description of the katana is &quot;<span class="quote">The katana is razor-sharp: well maintained, but with a [</span><span class="substitution">wrapped string handle</span><span class="quote">] duct-taped on.</span>&quot;</p><p class="indent0"></p><p class="indent0">The wrapped string handle is part of the katana. The description is &quot;<span class="quote">This handle looks like a patch job, but it's serviceable.</span>&quot;</p><p class="indent0"></p><p class="indent0">The body is a fixed in place woman in the Dojo. &quot;<span class="quote">The suspicious-looking dead body of a middle-aged woman lies here.</span>&quot; The description of the body is usually &quot;<span class="quote">Yep, she's definitely dead.</span>&quot;</p><p class="indent0"></p><p class="indent0">After examining the body for the first time: now the description of the body is &quot;<span class="quote">You observe a gaping stab wound, as if made by a katana, in her chest.</span>&quot;</p><p class="indent0"></p><p class="indent0">Before the player doing something to the door when the green encrusted key is not touchable: say &quot;<span class="quote">The door is locked from the inside! Weird!</span>&quot;; now the player carries the green encrusted key; stop the action.</p><p class="indent0"></p><p class="indent0">Instead of unlocking the door with the green encrusted key: say &quot;<span class="quote">There's no real point in that. You can solve the mystery from in here.</span>&quot;</p><p class="indent0"></p><p class="indent0">Hinted is a truth state that varies.</p><p class="indent0"></p><p class="indent0">After examining the body when the player carries the green encrusted key and hinted is false: say &quot;<span class="quote">You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets[</span><span class="substitution">if we have taken inventory</span><span class="quote">] again[</span><span class="substitution">end if</span><span class="quote">]...</span>&quot;; now hinted is true.</p><p class="indent0"></p><p class="indent0">The description of the green encrusted key is &quot;<span class="quote">This verdigris-covered key is labeled 'Dojo Key'. There is a little blood on it.</span>&quot; </p><p class="indent0"></p><p class="indent0">The front door is a door. &quot;<span class="quote">A door to the south leads out of the room.</span>&quot; It is south of the Dojo. It is closed and locked. The description is &quot;<span class="quote">This door seems to be locked with a bolt from the inside. The key should still be in here.</span>&quot; The green encrusted key unlocks the front door.</p><p class="indent0"></p><p class="indent0">Solving is an action out of world applying to one topic. Understand &quot;<span class="quote">accuse [</span><span class="substitution">text</span><span class="quote">]</span>&quot; as solving.</p><p class="indent0"></p><p class="indent0">To indicate cheating: decrease the score by 1; end the story saying &quot;<span class="quote">Oh, very clever. '[</span><span class="substitution">the topic understood in sentence case</span><span class="quote">].' The tautology is, after all, a popular solution in detective fiction---not. You haven't just failed, you've epic failed.</span>&quot; </p><p class="indent0"></p><p class="indent0">To indicate flailing: end the story saying &quot;<span class="quote">[</span><span class="substitution">The topic understood in sentence case</span><span class="quote">] stands accused...[</span><span class="substitution">paragraph break</span><span class="quote">]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself.</span>&quot;</p><p class="indent0"></p><p class="indent0">To decide whether (the accused - an indexed text) is referred to in (the directory - a table name): repeat through the directory begin; if the accused matches the text Murderer entry, decide yes; end repeat; decide no.</p><p class="indent0"></p><p class="indent0">To decide whether (the accused - an indexed text) is not referred to in (the directory - a table name): if the accused is referred to in the directory, decide no; decide yes.</p><p class="indent0"></p><p class="indent0">Carry out solving: let the accused be an indexed text; let the accused be the topic understood; if the accused is referred to in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not referred to in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying &quot;<span class="quote">You stand accused...[</span><span class="substitution">paragraph break</span><span class="quote">]You have solved the mystery! Murderer.</span>&quot;</p><p class="indent0"></p><p class="indent0"><span class="heading">Table of Nonsense Murderer Names</span></p><table><tr><td><span class="columnhead">Murderer</span></td></tr>
+<tr><td>indexed text</td></tr>
+<tr><td>&quot;<span class="quote">killer</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">assailant</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">murderer</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">villain</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">bad guy</span>&quot;</td></tr>
+</table><p class="indent0"></p><p class="indent0"><span class="heading">Table of Murderer Names</span></p><table><tr><td><span class="columnhead">Murderer</span></td></tr>
+<tr><td>indexed text</td></tr>
+<tr><td>&quot;<span class="quote">player</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">self</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">myself</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">samurai</span>&quot;</td></tr>
+<tr><td>&quot;<span class="quote">me</span>&quot;</td></tr>
+</table><p class="indent0"></p><p class="indent0">Test me with &quot;<span class="quote">i / x body / s / x body / i / s / x key / accuse me</span>&quot;.</p><p class="indent0"></p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
