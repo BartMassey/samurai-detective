@@ -27,9 +27,9 @@ Before the player doing something to the door when the green encrusted key is no
 
 Instead of unlocking the door with the green encrusted key: say "There's no real point in that. You can solve the mystery from in here."
 
-Giving the key hint is a truth state that varies.
+Hinted is a truth state that varies.
 
-Instead of examining the body when the player carries the green encrusted key and gave the key hint is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a weird thought---you might want to check your pockets..."; now gave the key hint is true.
+After examining the body when the player carries the green encrusted key and hinted is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets..."; now hinted is true.
 
 The description of the green encrusted key is "This verdigris-covered key is labeled 'Dojo Key'. There is a little blood on it." 
 
