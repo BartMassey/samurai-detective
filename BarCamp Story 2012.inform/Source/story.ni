@@ -16,11 +16,21 @@ The player carries a katana. The description of the katana is "The katana is raz
 
 The wrapped string handle is part of the katana. The description is "This handle looks like a patch job, but it's serviceable."
 
-The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead." After examining the body for the first time: now the description of the body is "You observe a gaping stab wound, as if made by a katana, in her chest." Instead of examining the body for the third time: say "You notice a [key] in your pocket. Maybe this explains how the killer got into the room."; now the player carries the green encrusted key.
+The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead."
+
+After examining the body for the first time: now the description of the body is "You observe a gaping stab wound, as if made by a katana, in her chest."
+
+Before the player doing something to the door when the green encrusted key is not touchable: say "The door is locked from the inside! Weird!"; now the player carries the green encrusted key; stop the action.
+
+Instead of unlocking the door with the green encrusted key: say "There's no real point in that. You can solve the mystery from in here."
+
+Gave the key hint is a truth state that varies.
+
+Instead of examining the body when the player carries the green encrusted key and gave the key hint is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a weird thought---you might want to check your pockets..."; now gave the key hint is true.
 
 The description of the green encrusted key is "This verdigris-covered key is labeled 'Dojo Key'. There is a little blood on it." 
 
-The Front Door is a door. It is south of the Dojo. It is closed and locked.
+The front door is a door. "A door to the south leads out of the room." It is south of the Dojo. It is closed and locked. The description is "This door seems to be locked with a bolt from the inside. The key should still be in here." The green encrusted key unlocks the front door.
 
 Solving is an action applying to one topic. Understand "accuse [text]" as solving.
 
