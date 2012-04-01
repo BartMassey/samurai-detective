@@ -1,5 +1,8 @@
 "Samurai Detective" by "Bar Camp PDX 2012"
 
+[ Copyright © 2012 participants of the Bar Camp Portland 2012 Inform 7 authoring session. ]
+[ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
+
 The maximum score is 1.
 
 The story headline is "A Murder Mystery".
