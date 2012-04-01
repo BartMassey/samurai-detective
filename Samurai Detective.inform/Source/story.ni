@@ -27,13 +27,13 @@ The body is a fixed in place woman in the Dojo. "The suspicious-looking dead bod
 
 After examining the body for the first time: now the description of the body is "You observe a gaping stab wound, as if made by a katana, in her chest."
 
-Before the player doing something to the door when the green encrusted key is not touchable: say "The door is locked from the inside! Weird!"; now the player carries the green encrusted key; stop the action.
+Hinted is a truth state that varies.
+
+Before the player doing something to the door when hinted is false: say "The door is locked from the inside! Weird!"; now hinted is true; stop the action.
 
 Instead of unlocking the door with the green encrusted key: say "There's no real point in that. You can solve the mystery from in here."
 
-Hinted is a truth state that varies.
-
-After examining the body when the player carries the green encrusted key and hinted is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets[if we have taken inventory] again[end if]..."; now hinted is true.
+After examining the body when the green encrusted key is not touchable and hinted is true: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a strange thought---you might want to check your pockets[if we have taken inventory] again[end if]..."; now the player carries the green encrusted key.
 
 Understand "check pockets" or "check my pockets" as taking inventory.
 
