@@ -27,7 +27,7 @@ Before the player doing something to the door when the green encrusted key is no
 
 Instead of unlocking the door with the green encrusted key: say "There's no real point in that. You can solve the mystery from in here."
 
-Gave the key hint is a truth state that varies.
+Giving the key hint is a truth state that varies.
 
 Instead of examining the body when the player carries the green encrusted key and gave the key hint is false: say "You can't find a key, and the door locks from the inside. How did the killer get into the room? You have a weird thought---you might want to check your pockets..."; now gave the key hint is true.
 
@@ -37,15 +37,26 @@ The front door is a door. "A door to the south leads out of the room." It is sou
 
 Solving is an action out of world applying to one topic. Understand "accuse [text]" as solving.
 
-Carry out solving: let the accused be the topic understood; if the accused is not a Murderer listed in the Table of Murderer Names, instead end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself."; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
+To indicate cheating: decrease the score by 1; end the story saying "Oh, very clever. '[the topic understood in sentence case].' The tautology is, after all, a popular solution in detective fiction---not. You haven't just failed, you've epic failed." 
+
+To indicate flailing: end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself."
+
+Carry out solving: let the accused be the topic understood; if the accused is a Non-Murderer listed in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not a Murderer listed in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
+
+Table of Nonsense Murderer Names
+Non-Murderer
+topic
+"killer"
+"assailant"
+"murderer"
+"villain"
+"bad guy"
 
 Table of Murderer Names
 Murderer
 topic
 "player"
-"the player"
 "self"
 "myself"
 "samurai"
-"the samurai"
 "me"
