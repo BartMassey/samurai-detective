@@ -22,8 +22,17 @@ The description of the green encrusted key is "This verdigris-covered key is lab
 
 The Front Door is a door. It is south of the Dojo. It is closed and locked.
 
-The murderer is a person. Understand "the player" or "self" or "myself" or "the samurai" or "me" as the murderer.
+Solving is an action applying to one topic. Understand "accuse [text]" as solving.
 
-Solving is an action out of world applying to nothing. Understand "accuse me" as solving. Carry out solving: end the story saying "You have solved the mystery! Murderer."
+Carry out solving: let the accused be the topic understood; if the accused is not a Murderer listed in the Table of Murderer Names, instead end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself."; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
 
-Failing is an action out of world applying to nothing. Understand "accuse someone else" as failing. Carry out failing: End the story saying "You have accused an innocent person. Next time look deeper within yourself."
+Table of Murderer Names
+Murderer
+topic
+"player"
+"the player"
+"self"
+"myself"
+"samurai"
+"the samurai"
+"me"
