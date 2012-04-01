@@ -3,9 +3,13 @@
 [ Copyright © 2012 participants of the Bar Camp Portland 2012 Inform 7 authoring session. ]
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 
+Release along with the library card, cover art, an interpreter and the source text.
+
 The maximum score is 1.
 
 The story headline is "A Murder Mystery".
+
+The story description is "A very quick murder mystery written as a demo exercise for Bar Camp Portland 2012."
 
 When play begins: say "To try to solve the mystery, say ACCUSE (killer)."
 
