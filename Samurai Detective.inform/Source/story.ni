@@ -11,7 +11,7 @@ The story headline is "A Murder Mystery".
 
 The story description is "A very quick murder mystery written as a demo exercise for Bar Camp Portland 2012."
 
-When play begins: say "To try to solve the mystery, say ACCUSE (killer)."
+After printing the banner text: say "[paragraph break](To try to solve the mystery, say ACCUSE [italic type](killer).[roman type])[paragraph break]"
 
 Include Locksmith by Emily Short.
 
@@ -47,7 +47,7 @@ Accusing is an action out of world applying to one topic. Understand "accuse [te
 
 To indicate cheating: decrease the score by 1; end the story saying "Oh, very clever. '[the topic understood in sentence case].' The tautology is, after all, a popular solution in detective fiction---not. You haven't just failed, you've epic failed." 
 
-To indicate flailing: end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps innocent nonsense---who knows?). Next time look deeper within yourself."
+To indicate flailing: end the story saying "[The topic understood in sentence case] stands accused...[paragraph break]You have accused an innocent person (or perhaps an innocent object, or perhaps you're just talking nonsense---who knows?). Next time look deeper within yourself."
 
 To decide whether (the accused - an indexed text) is referred to in (the directory - a table name): repeat through the directory begin; if the accused matches the text Murderer entry, decide yes; end repeat; decide no.
 
