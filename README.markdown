@@ -2,7 +2,7 @@ Samurai Detective is a game that (for the most part) was
 created by the 15 or so participants of Bar Camp Portland
 2012 during a 50-minute introduction. Bart Massey did a lot
 of the actual writing, with help from Audrey Eschright and
-Reid Beals.
+Reid Beels.
 
 Try the game: http://bartmassey.github.com/samurai-detective/
 
