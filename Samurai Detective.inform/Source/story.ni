@@ -23,7 +23,7 @@ The player carries a katana. The description of the katana is "The katana is raz
 
 The wrapped string handle is part of the katana. The description is "This handle looks like a patch job, but it's serviceable."
 
-The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead."
+The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead." Understand "woman/corpse/victim" as the body.
 
 After examining the body for the first time: now the description of the body is "You observe a gaping stab wound, as if made by a katana, in her chest."
 
