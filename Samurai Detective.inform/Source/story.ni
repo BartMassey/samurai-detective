@@ -15,7 +15,7 @@ After printing the banner text: say "[paragraph break](To try to solve the myste
 
 Include Locksmith by Emily Short.
 
-The Dojo is a room. "This a large airy room with a [wood floor]." The wood floor is scenery in the Dojo.
+The Dojo is a room. "This is a large airy room with a [wood floor]." The wood floor is scenery in the Dojo.
 
 The description of the player is "You are short and mysterious. You carry a [katana] slightly too large for your slender frame."
 
