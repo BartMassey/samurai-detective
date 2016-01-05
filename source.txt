@@ -5,7 +5,7 @@
 
 Release along with the library card, cover art, an interpreter and the source text.
 
-The maximum score is 1.
+Use scoring. The maximum score is 1.
 
 The story headline is "A Murder Mystery".
 
@@ -15,7 +15,7 @@ After printing the banner text: say "[paragraph break](To try to solve the myste
 
 Include Locksmith by Emily Short.
 
-The Dojo is a room. "This a large airy room with a [wood floor]." The wood floor is scenery in the Dojo.
+The Dojo is a room. "This is a large airy room with a [wood floor]." The wood floor is scenery in the Dojo.
 
 The description of the player is "You are short and mysterious. You carry a [katana] slightly too large for your slender frame."
 
@@ -23,7 +23,7 @@ The player carries a katana. The description of the katana is "The katana is raz
 
 The wrapped string handle is part of the katana. The description is "This handle looks like a patch job, but it's serviceable."
 
-The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead."
+The body is a fixed in place woman in the Dojo. "The suspicious-looking dead body of a middle-aged woman lies here." The description of the body is usually "Yep, she's definitely dead." Understand "woman/corpse/victim" as the body.
 
 After examining the body for the first time: now the description of the body is "You observe a gaping stab wound, as if made by a katana, in her chest."
 
@@ -56,8 +56,7 @@ To decide whether (the accused - an indexed text) is not referred to in (the dir
 Carry out accusing: let the accused be an indexed text; let the accused be the topic understood; if the accused is referred to in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not "" and the accused is not referred to in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
 
 Table of Nonsense Murderer Names
-Murderer
-indexed text
+Murderer [indexed text]
 "killer"
 "assailant"
 "murderer"
@@ -65,8 +64,7 @@ indexed text
 "bad guy"
 
 Table of Murderer Names
-Murderer
-indexed text
+Murderer [indexed text]
 "player"
 "self"
 "myself"
