@@ -5,7 +5,7 @@
 
 Release along with the library card, cover art, an interpreter and the source text.
 
-The maximum score is 1.
+Use scoring. The maximum score is 1.
 
 The story headline is "A Murder Mystery".
 
@@ -56,8 +56,7 @@ To decide whether (the accused - an indexed text) is not referred to in (the dir
 Carry out accusing: let the accused be an indexed text; let the accused be the topic understood; if the accused is referred to in the Table of Nonsense Murderer Names, instead indicate cheating; if the accused is not "" and the accused is not referred to in the Table of Murderer Names, instead indicate flailing; increase the score by 1; end the story saying "You stand accused...[paragraph break]You have solved the mystery! Murderer."
 
 Table of Nonsense Murderer Names
-Murderer
-indexed text
+Murderer [indexed text]
 "killer"
 "assailant"
 "murderer"
@@ -65,8 +64,7 @@ indexed text
 "bad guy"
 
 Table of Murderer Names
-Murderer
-indexed text
+Murderer [indexed text]
 "player"
 "self"
 "myself"
