@@ -2,45 +2,45 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>6747E0D6-EF29-11E3-BC84-94DE80774D68</ifid>
-            <format>zcode</format>
+            <ifid>A3DEC65E-02BE-4B20-88CB-3C7341695541</ifid>
+            <format>glulx</format>
         </identification>
         <bibliographic>
             <title>Samurai Detective</title>
             <author>Bar Camp PDX 2012</author>
             <headline>A Murder Mystery</headline>
             <genre>Fiction</genre>
-            <firstpublished>2016</firstpublished>
+            <firstpublished>2023</firstpublished>
             <description>A very quick murder mystery written as a demo exercise for Bar Camp Portland 2012.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <cover>
             <format>png</format>
-            <height>960</height>
-            <width>960</width>
+            <height>120</height>
+            <width>120</width>
             <description>The cover art.</description>
         </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2016-01-05</releasedate>
+                    <releasedate>2023-07-15</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
-                    <compilerversion>6L38</compilerversion>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
                 </release>
             </attached>
         </releases>
         <colophon>
             <generator>Inform 7</generator>
-            <generatorversion>6L38</generatorversion>
-            <originated>2016-01-05</originated>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2023-07-15</originated>
         </colophon>
-        <zcode>
-            <serial>160105</serial>
+        <glulx>
+            <serial>230715</serial>
             <release>1</release>
-            <compiler>Inform 7 build 6L38</compiler>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
             <coverpicture>1</coverpicture>
-        </zcode>
+        </glulx>
     </story>
 </ifindex>

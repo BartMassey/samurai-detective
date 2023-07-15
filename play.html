@@ -7,18 +7,26 @@
   <meta name="author" content="Bar Camp PDX 2012">
   <link rel="stylesheet" href="style.css">
   
-  <script src="interpreter/jquery.min.js"></script>
-<script src="interpreter/parchment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="interpreter/parchment.min.css">
-<script>
-parchment_options = {
-default_story: [ "interpreter/Samurai Detective.zblorb.js" ],
-lib_path: 'interpreter/',
-lock_options: 1,
-lock_story: 1,
-page_title: 0
+  <link rel="stylesheet" href="interpreter/glkote.css" type="text/css">
+<link rel="stylesheet" href="interpreter/dialog.css" type="text/css">
+<script src="interpreter/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="interpreter/glkote.min.js" type="text/javascript"></script>
+<script src="interpreter/quixe.min.js" type="text/javascript"></script>
+
+<script src="interpreter/resourcemap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+game_options = {
+image_info_map: 'StaticImageInfo',  // image data is here, not in blorb
+use_query_story: false,
+log_execution_time: true,
+set_page_title: false,
+inspacing: 0,     // gap between windows
+outspacing: 0     // gap between windows and edge of gameport
 };
 </script>
+
+<script src="interpreter/Samurai Detective.gblorb.js" type="text/javascript"></script>
   
  </head>
 <body class="play">
@@ -32,16 +40,20 @@ page_title: 0
 </div>
 
 <div id="gameport">
-<div id="about">
-<h1>Parchment</h1>
-<p>is an interpreter for Interactive Fiction. <a href="http://parchment.googlecode.com">Find out more.</a></p>
-<noscript><p>Parchment requires Javascript. Please enable it in your browser.</p></noscript>
+<div id="windowport">
+<noscript><hr>
+<p>You'll need to turn on Javascript in your web browser to play this game.</p>
+<hr></noscript>
 </div>
-<div id="parchment"></div>
+<div id="loadingpane">
+<img src="interpreter/waiting.gif" alt="LOADING"><br>
+<em>&nbsp;&nbsp;&nbsp;Loading...</em>
+</div>
+<div id="errorpane" style="display:none;"><div id="errorcontent">...</div></div>
 </div>
 
 </div>
-<div class="interpretercredit"><a href="https://github.com/curiousdannii/parchment">Parchment for Inform 7 (2014-04-21)</a></div>
+<div class="interpretercredit"><a href="http://eblong.com/zarf/glulx/quixe/">Quixe for Inform 7 (v. 2.2.1)</a></div>
 </body>
 </html>
 
